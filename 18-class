@@ -15,7 +15,7 @@ import numpy as np
 from itertools import chain
 import os
 
-## Create empty lists for timeseries data and labels
+# Create empty lists for timeseries data and labels
 
 timeseries_list = []
 label_list = []
@@ -31,7 +31,7 @@ for subject in subjects:
    
     for incline in inclines: #Loop through each incline
         label = 0 # Set label to 0
-        for speed in speeds: ## Loop through each speed
+        for speed in speeds: # Loop through each speed
             try:
                 subject_data = data['data_proc'][subject]['sorted_steps'][incline][speed]
             except:
