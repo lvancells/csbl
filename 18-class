@@ -28,9 +28,8 @@ subjects = ['Sub002','Sub003','Sub004','Sub005','Sub006','Sub007','Sub008','Sub0
 
 # Loop through each subject
 for subject in subjects:
-   
+    label = 0 # Set label to 0
     for incline in inclines: #Loop through each incline
-        label = 0 # Set label to 0
         for speed in speeds: # Loop through each speed
             try:
                 subject_data = data['data_proc'][subject]['sorted_steps'][incline][speed]
