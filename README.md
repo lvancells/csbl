@@ -25,4 +25,4 @@ After training, the performance of the model is visualized using matplotlib. Two
 
 Conclusion
 This code provides an example of how to preprocess time series data, train an RNN for classification tasks (3,6,18-class classification), and evaluate its performance. The code can be adapted to other datasets and classification tasks by modifying the data extraction and preprocessing steps and changing the RNN architecture and hyperparameters.
-![image](https://user-images.githubusercontent.com/126813118/222894352-61f795f4-d4fb-4f90-b1a6-bb8fa3cc04ba.png)
+
